@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+
+:root {
+  /* Typography */
+  --font-title: 'Fraunces', "Times New Roman", Times, "Liberation Serif", serif;
+  --font-sans: 'Montserrat';
+
+  /* Colour */
+  --accent: oklch(43.7% 0.078 188.216);
+
+  /* Size */
+  --max-content-width: 1024px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+
+/* Default Styles: General */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--font-sans)
+}
+
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+
+/* Shared / General Classes */
+.contentWrapper {
+  margin: auto;
+  max-width: var(--max-content-width);
+}
