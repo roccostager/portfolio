@@ -8,10 +8,31 @@
   --font-sans: 'Montserrat';
 
   /* Colour */
-  --accent: oklch(43.7% 0.078 188.216);
+  --accent: oklch(37.527% 0.15 13.88);
+  --color-p: oklch(40% 0 0);
+  --border: oklch(95% 0 0);
+
+  --bg-red: radial-gradient(100vw 200vh ellipse at left 10vw bottom 60px,
+      #EAE4E6 0%,
+      #EDE8E9 25%,
+      #F0ECED 25%,
+      #F3F0F1 50%,
+      #F6F3F4 50%,
+      #F9F7F8 75%,
+      #FCFBFB 75%,
+      #FFFFFF 100%);
+  --bg-gray: radial-gradient(100vw 200vh ellipse at left 10vw bottom 60px,
+      #EAEBED 0%,
+      #EDEEF0 25%,
+      #F0F1F2 25%,
+      #F3F3F5 50%,
+      #F6F6F7 50%,
+      #F9F9FA 75%,
+      #FCFCFC 75%,
+      #FFFFFF 100%);
 
   /* Size */
-  --max-content-width: 1024px;
+  --max-content-width: 1032px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,13 +57,17 @@ h3 {
 }
 
 p {
-  font-family: var(--font-sans)
+  font-family: var(--font-sans);
+  color: var(--color-p);
+  font-weight: 500;
 }
 
 
 /* Links */
 a {
-  text-decoration: none;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--accent);
 }
 
 
@@ -50,4 +75,5 @@ a {
 .contentWrapper {
   margin: auto;
   max-width: var(--max-content-width);
+  padding-inline: 8px;
 }

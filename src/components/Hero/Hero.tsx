@@ -3,11 +3,62 @@ import styles from './Hero.module.css';
 
 function Hero() {
     return <div className={styles.hero}>
+        <div className={styles.header}></div>
         <div className={styles.textWrapper}>
-            <h1 className={styles.title}>i'm Rocco Stager.</h1>
-            <p className={styles.description}>I code stuff lol.</p>
+            <h1 className={styles.title}>i'm <span>Rocco Stager.</span></h1>
+            <h1 className={styles.description}>Game Developer and Coder.</h1>
             <div className={styles.links}>
                 <a href="#projects">Projects</a>
+            </div>
+        </div>
+        <div className={styles.separator}>
+            <div className={styles.banner}>
+                <div className={styles.bannerContent} aria-hidden={true}>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                </div>
+                <div className={styles.bannerContent} aria-hidden={true}>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Gooning.</p>
+                </div>
             </div>
         </div>
     </div>
