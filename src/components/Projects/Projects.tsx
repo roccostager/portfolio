@@ -17,6 +17,7 @@ function Projects() {
                     image={"/projects/auto-mage.png"}
                     skills={["luau", "figma"]}
                 >
+                    <a href="/auto-mage">Read</a>
                     <a href="https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D10766076305&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F78978221791175" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Test</a>
                 </Project>
                 <Project
