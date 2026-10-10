@@ -24,10 +24,10 @@ function Project({ title, description, image, skills, children }: Props) {
                     </li>
                 )}
             </div>
+        </div>
 
-            <div className={styles.linksWrapper}>
-                {children}
-            </div>
+        <div className={styles.linksWrapper}>
+            {children}
         </div>
     </div >
 }

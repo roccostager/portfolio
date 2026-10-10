@@ -17,48 +17,42 @@ function Hero() {
                 <div className={styles.bannerContent} aria-hidden={true}>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
-                    <p>Coding.</p>
-                    <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                 </div>
                 <div className={styles.bannerContent} aria-hidden={true}>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
-                    <p>Gooning.</p>
-                    <p>Coding.</p>
-                    <p>Design.</p>
-                    <p>Gooning.</p>
+                    <p>Planning.</p>
                 </div>
             </div>
         </div>

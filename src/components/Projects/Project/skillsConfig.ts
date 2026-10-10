@@ -26,12 +26,16 @@ const SKILLS_CONFIG = {
         image: '/skills/typescript.png'
     },
     react: {
-        name: 'TypeScript',
+        name: 'React',
         image: '/skills/react.png'
     },
     node: {
         name: 'Node',
         image: '/skills/nodejs.png'
+    },
+    python: {
+        name: 'Python',
+        image: '/skills/python.png'
     },
 
     express: {

@@ -12,6 +12,14 @@ function Projects() {
             <br />
             <div className={styles.projectContainer}>
                 <Project
+                    title={"Auto Mage"}
+                    description={"A Roblox Game I am currently working on."}
+                    image={"/projects/auto-mage.png"}
+                    skills={["luau", "figma"]}
+                >
+                    <a href="https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D10766076305&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F78978221791175" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Test</a>
+                </Project>
+                <Project
                     title={"Calc"}
                     description={"I'm only including this one because it looks nice and has sound effects."}
                     image={"/projects/calc.png"}
@@ -39,9 +47,18 @@ function Projects() {
                     <a href="https://devforum.roblox.com/t/dynamicgui-%E2%80%94-tag-based-animated-ui-effects-for-roblox/4670904" target="_blank"><IconExternalLink size="1em" />Forum</a>
                 </Project>
                 <Project
+                    title={"Question bank"}
+                    description={"Questions were spread over multiple papers so I extracted them and put them on a website."}
+                    image={"/projects/comm1240.png"}
+                    skills={["react", "ts", "python"]}
+                >
+                    <a href="https://github.com/roccostager/cb1-exam-extractor" target="_blank">Extractor</a>
+                    <a href="https://comm1240.roccostager.com/" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Demo</a>
+                </Project>
+                <Project
                     title={"(Bad) Auth"}
-                    description={"I made a front- and back-end for auth. You will get hacked if you use it..."}
-                    image={"/projects/dynamic-gui.png"}
+                    description={"I made a front- and back-end for auth. from (sorta) scratch. You will get hacked if you use it..."}
+                    image={"/projects/bad-auth.png"}
                     skills={["react", "ts", "zod", "prisma", "express", "node"]}
                 >
                     <a href="https://github.com/roccostager/fx-react" target="_blank"><IconExternalLink size="1em" />Frontend</a>
@@ -49,7 +66,7 @@ function Projects() {
                 </Project>
             </div>
         </div>
-    </section>
+    </section >
 }
 
 
