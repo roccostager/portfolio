@@ -12,19 +12,29 @@ function Projects() {
                 <Project
                     title={"Calc"}
                     description={"I'm only including this one because it looks nice and has sound effects."}
-                    image={"/calc.png"}
+                    image={"/projects/calc.png"}
+                    skills={["html", "css", "js"]}
                 >
                 </Project>
                 <Project
                     title={"Local To-do"}
                     description={"A task app which uses the LocalStorage Browser API."}
-                    image={"/local-todo.png"}
+                    image={"/projects/local-todo.png"}
+                    skills={["html", "css", "js"]}
                 >
                 </Project>
                 <Project
-                    title={"Roblox Game"}
-                    description={"You get magic and stuff"}
-                    image={"/dood.jpg"}
+                    title={"DynamicGUI"}
+                    description={"A Roblox Development Plugin to apply UI effects quickly."}
+                    image={"/projects/dynamic-gui.png"}
+                    skills={["luau", "figma"]}
+                >
+                </Project>
+                <Project
+                    title={"(Bad) Auth"}
+                    description={"I made a front- and back-end for auth. You will get hacked if you use it..."}
+                    image={"/projects/dynamic-gui.png"}
+                    skills={["react", "ts", "zod", "prisma", "express"]}
                 >
                 </Project>
             </div>
