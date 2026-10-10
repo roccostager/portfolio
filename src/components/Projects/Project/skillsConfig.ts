@@ -59,6 +59,11 @@ const SKILLS_CONFIG = {
         name: 'Figma',
         image: '/skills/figma.png'
     },
+
+    ai: {
+        name: 'AI :)',
+        image: '/skills/ai.png'
+    }
 } satisfies Record<string, SkillData>;
 
 

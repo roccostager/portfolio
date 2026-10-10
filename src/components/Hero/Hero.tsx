@@ -1,10 +1,11 @@
+import Header from './Header/Header'
 import styles from './Hero.module.css';
 import { IconArrowNarrowDownDashed } from '@tabler/icons-react';
 
 
 function Hero() {
     return <div className={styles.hero}>
-        <div className={styles.header}></div>
+        <Header />
         <div className={styles.textWrapper}>
             <h1 className={styles.title}>i'm <span>Rocco Stager.</span></h1>
             <h1 className={styles.description}>Game Developer and Coder.</h1>
