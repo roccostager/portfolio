@@ -29,6 +29,10 @@ const SKILLS_CONFIG = {
         name: 'TypeScript',
         image: '/skills/react.png'
     },
+    node: {
+        name: 'Node',
+        image: '/skills/nodejs.png'
+    },
 
     express: {
         name: 'Express JS',
@@ -42,7 +46,6 @@ const SKILLS_CONFIG = {
         name: 'Zod',
         image: '/skills/zod.png'
     },
-
 
     luau: {
         name: 'Luau',

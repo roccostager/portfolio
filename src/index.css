@@ -10,6 +10,9 @@
 
   /* Colour */
   --accent: oklch(37.527% 0.15 13.88);
+  --accent-light: oklch(50.544% 0.20431 23.675);
+  --accent-dark: oklch(43.058% 0.10298 6.149);
+  --accent-2: oklch(55.684% 0.05609 356.783);
   --color-p: oklch(40% 0 0);
   --border: oklch(95% 0 0);
 
@@ -69,6 +72,10 @@ a {
   font-family: var(--font-sans);
   font-weight: 600;
   color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-light);
 }
 
 
