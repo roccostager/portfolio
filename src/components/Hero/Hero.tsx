@@ -34,8 +34,44 @@ function Hero() {
                     <p>Coding.</p>
                     <p>Design.</p>
                     <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
                 </div>
                 <div className={styles.bannerContent} aria-hidden={true}>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
+                    <p>Coding.</p>
+                    <p>Design.</p>
+                    <p>Planning.</p>
                     <p>Coding.</p>
                     <p>Design.</p>
                     <p>Planning.</p>
