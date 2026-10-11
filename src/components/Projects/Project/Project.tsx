@@ -2,9 +2,10 @@ import Skill from '@components/Skill/Skill';
 import styles from './Project.module.css';
 import type React from 'react';
 
+import type { SkillName } from '@components/Skill/skillsConfig';
 
 
-type Props = { title: string, description: string, image: string, skills: Skill[], children: React.ReactNode };
+type Props = { title: string, description: string, image: string, skills: SkillName[], children: React.ReactNode };
 function Project({ title, description, image, skills, children }: Props) {
     return <div className={styles.project}>
         <div className={styles.imageContainer}>
