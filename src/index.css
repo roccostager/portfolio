@@ -68,12 +68,14 @@ p {
 
 
 /* Links */
+.link,
 a {
   font-family: var(--font-sans);
   font-weight: 600;
   color: var(--accent);
 }
 
+.link:hover,
 a:hover {
   color: var(--accent-light);
 }

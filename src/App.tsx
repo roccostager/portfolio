@@ -1,15 +1,14 @@
 import Header from '@components/Header/Header'
-import Hero from '@components/Hero/Hero';
-import Projects from '@components/Projects/Projects'
-import Footer from '@components/Footer/Footer'
+import { ScrollRestoration, Outlet } from 'react-router'
+
+
 
 function App() {
   return (
     <>
+      <ScrollRestoration />
       <Header />
-      <Hero />
-      <Projects />
-      <Footer />
+      <Outlet />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import styles from './Hero.module.css';
 import { IconArrowNarrowDownDashed } from '@tabler/icons-react';
+import { Link } from 'react-router';
 
 
 function Hero() {
@@ -9,7 +10,7 @@ function Hero() {
             <h1 className={styles.title}>i'm <span>Rocco Stager.</span></h1>
             <h1 className={styles.description}>Game Developer and Coder.</h1>
             <div className={styles.links}>
-                <a href="#projects">Projects<IconArrowNarrowDownDashed size="1em" /></a>
+                <Link to="/#projects">Projects<IconArrowNarrowDownDashed size="1em" /></Link>
             </div>
         </div>
         <div className={styles.separator}>

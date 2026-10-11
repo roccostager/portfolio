@@ -1,11 +1,11 @@
 import styles from './Header.module.css';
-
+import { Link } from 'react-router';
 
 function Header() {
     return <div className={styles.header}>
         <div className={styles.container}>
             <div className={`${styles.left} ${styles.pointerLinks}`}>
-                <a href="#projects">Projects</a>
+                <Link to="/#projects">Projects</Link>
             </div>
             <div className={styles.mid}>
                 <p className={styles.name}>Rocco Stager</p>
