@@ -8,7 +8,7 @@ import AutoMage from '@pages/content/AutoMage/AutoMage';
 
 const routes = [
     {
-        path: '/', element: <App />, errorPage: <ErrorPage />, children: [
+        path: '/', element: <App />, errorElement: <ErrorPage />, children: [
             { index: true, element: <LandingPage /> },
             { path: 'auto', element: <AutoMage /> }
         ]
