@@ -8,7 +8,7 @@ function Header() {
                 <Link to="/#projects">Projects</Link>
             </div>
             <div className={styles.mid}>
-                <p className={styles.name}>Rocco Stager</p>
+                <Link to="/#hero" className={styles.name}>Rocco Stager</Link>
             </div>
             <div className={`${styles.right} ${styles.social}`}>
                 <a href="https://github.com/roccostager" target="_blank">

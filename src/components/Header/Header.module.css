@@ -34,8 +34,9 @@
         .name {
             font-size: 1.2rem;
             font-weight: 600;
-
+            color: var(--font-p);
             transform: scale(1);
+            text-decoration: none;
             will-change: transform;
             transition: transform 0.3s ease;
         }

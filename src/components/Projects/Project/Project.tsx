@@ -1,6 +1,4 @@
-import SKILLS_CONFIG from './skillsConfig';
-import type { Skill } from './skillsConfig';
-
+import Skill from '@components/Skill/Skill';
 import styles from './Project.module.css';
 import type React from 'react';
 
@@ -18,10 +16,7 @@ function Project({ title, description, image, skills, children }: Props) {
 
             <div className={styles.skillsWrapper}>
                 {skills.map(skill =>
-                    < li className={styles.skill} >
-                        <img src={SKILLS_CONFIG[skill].image} alt="" />
-                        <p>{SKILLS_CONFIG[skill].name}</p>
-                    </li>
+                    <Skill skill={skill} />
                 )}
             </div>
         </div>

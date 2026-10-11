@@ -1,6 +1,6 @@
 
 // Type Definitions
-export type Skill = keyof typeof SKILLS_CONFIG;
+export type SkillName = keyof typeof SKILLS_CONFIG;
 export interface SkillData {
     name: string,
     image: string,

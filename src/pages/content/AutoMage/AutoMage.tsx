@@ -2,6 +2,7 @@ import styles from './AutoMage.module.css'
 import { IconExternalLink } from '@tabler/icons-react';
 import Masonry from 'react-layout-masonry';
 import images from './images';
+import Applied from '@components/Applied/Applied';
 
 
 function AutoMage() {
@@ -16,6 +17,9 @@ function AutoMage() {
         <div className={styles.links}>
             <a href="https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D10766076305&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F78978221791175" target="_blank" className="button"><IconExternalLink size="1em" />Play on Roblox</a>
         </div>
+
+        {/* <h3>Skills Applied</h3>
+        <Applied /> */}
 
         <h3 className={styles.subtitle}>Collection</h3>
         <p className={styles.subDescription}>Some images showing the development process.</p>
