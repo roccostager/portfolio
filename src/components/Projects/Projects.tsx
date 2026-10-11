@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
-import substyles from './Project/Project.module.css';
 import Project from './Project/Project';
 import { IconExternalLink } from '@tabler/icons-react';
+import { Link } from 'react-router';
 
 
 function Projects() {
@@ -17,8 +17,8 @@ function Projects() {
                     image={"/projects/auto-mage.png"}
                     skills={["luau", "figma"]}
                 >
-                    <a href="/auto-mage">Read</a>
-                    <a href="https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D10766076305&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F78978221791175" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Test</a>
+                    <Link to="auto">Read</Link>
+                    <a href="https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D10766076305&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F78978221791175" target="_blank" className="button"><IconExternalLink size="1em" />Test</a>
                 </Project>
                 <Project
                     title={"Calc"}
@@ -27,7 +27,7 @@ function Projects() {
                     skills={["html", "css", "js"]}
                 >
                     <a href="https://github.com/roccostager/calc" target="_blank"><IconExternalLink size="1em" />Repo</a>
-                    <a href="https://roccostager.github.io/calc/" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Demo</a>
+                    <a href="https://roccostager.github.io/calc/" target="_blank" className="button"><IconExternalLink size="1em" />Demo</a>
                 </Project>
                 <Project
                     title={"Local To-do"}
@@ -36,7 +36,7 @@ function Projects() {
                     skills={["html", "css", "js"]}
                 >
                     <a href="https://github.com/roccostager/local-todo" target="_blank"><IconExternalLink size="1em" />Repo</a>
-                    <a href="https://roccostager.github.io/local-todo/" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Demo</a>
+                    <a href="https://roccostager.github.io/local-todo/" target="_blank" className="button"><IconExternalLink size="1em" />Demo</a>
                 </Project>
                 <Project
                     title={"DynamicGUI"}
@@ -54,7 +54,7 @@ function Projects() {
                     skills={["react", "ts", "python"]}
                 >
                     <a href="https://github.com/roccostager/cb1-exam-extractor" target="_blank">Extractor</a>
-                    <a href="https://comm1240.roccostager.com/" target="_blank" className={substyles.button}><IconExternalLink size="1em" />Demo</a>
+                    <a href="https://comm1240.roccostager.com/" target="_blank" className="button"><IconExternalLink size="1em" />Demo</a>
                 </Project>
                 <Project
                     title={"(Bad) Auth"}

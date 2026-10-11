@@ -13,6 +13,7 @@
     "@tabler/icons-react": "^3.49.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-layout-masonry": "^2.1.0",
     "react-router": "^8.4.0"
   },
   "devDependencies": {

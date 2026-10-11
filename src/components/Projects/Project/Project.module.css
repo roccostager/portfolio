@@ -86,12 +86,6 @@
         gap: 8px;
         align-items: center;
         justify-content: flex-end;
-
-        a {
-            display: flex;
-            align-items: center;
-            gap: 1px;
-        }
     }
 
     transform: translateY(0);
@@ -118,44 +112,5 @@
 }
 
 .project:hover::after {
-    opacity: 1;
-}
-
-.button {
-    position: relative;
-    padding: 1px 5px;
-    border-radius: 6px;
-    margin-left: 4px;
-
-    text-decoration: none;
-
-    color: oklch(100% 0 0);
-    background-color: var(--accent);
-
-    transform: translateY(0);
-    transition: transform 0.3s ease;
-    will-change: transform;
-}
-
-.button:hover {
-    transform: translateY(-2px);
-    color: oklch(100% 0 0);
-}
-
-.button::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    pointer-events: none;
-
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.15);
-
-    opacity: 0;
-    transition: opacity 0.25s ease;
-    will-change: opacity;
-}
-
-.button:hover::after {
     opacity: 1;
 }
