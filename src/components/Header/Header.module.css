@@ -34,6 +34,14 @@
         .name {
             font-size: 1.2rem;
             font-weight: 600;
+
+            transform: scale(1);
+            will-change: transform;
+            transition: transform 0.3s ease;
+        }
+
+        .name:hover {
+            transform: scale(1.1);
         }
 
         @media(max-width: 640px) {
