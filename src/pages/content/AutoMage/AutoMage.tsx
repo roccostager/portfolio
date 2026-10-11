@@ -2,7 +2,7 @@ import styles from './AutoMage.module.css'
 import { IconExternalLink } from '@tabler/icons-react';
 import Masonry from 'react-layout-masonry';
 import images from './images';
-import Applied from '@components/Applied/Applied';
+// import Applied from '@components/Applied/Applied';
 
 
 function AutoMage() {
